@@ -197,6 +197,12 @@
     <Dimension dwd:design-time-name="310f27ff-a144-4b07-9781-66763984baca">
       <ID>DimStore</ID>
       <Name>DimStore</Name>
+      <Translations>
+        <Translation dwd:design-time-name="82194bbd-1568-474e-8746-a09a53b14040">
+          <Language>1045</Language>
+          <Caption>WSklep</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>DimStore</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="7098def1-8e2d-40c7-957f-8c0df8327087">
@@ -216,6 +222,12 @@
     <Dimension dwd:design-time-name="0f3041ce-c44a-4666-a804-e38deb93fe31">
       <ID>Outage</ID>
       <Name>Outage</Name>
+      <Translations>
+        <Translation dwd:design-time-name="0621614d-1121-4e46-9a23-bcd7d072dc44">
+          <Language>1045</Language>
+          <Caption>WPrzestój</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>Outage</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="d2055b94-043a-42cb-b94d-708b729d38e8">
@@ -244,6 +256,12 @@
     <Dimension dwd:design-time-name="e6f31bc0-2902-4588-8bdd-ea3dc32dfa71">
       <ID>DimMachine</ID>
       <Name>DimMachine</Name>
+      <Translations>
+        <Translation dwd:design-time-name="cbec47b2-496b-478b-bdea-d9b2dacb475f">
+          <Language>1045</Language>
+          <Caption>WMaszyna</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>DimMachine</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="8b00688c-db99-4453-921a-ece0825a0776">
@@ -281,6 +299,12 @@
     <Dimension dwd:design-time-name="8e8894e9-405f-4e60-aeb6-bb74077832d1">
       <ID>DimDate</ID>
       <Name>DimDate</Name>
+      <Translations>
+        <Translation dwd:design-time-name="088cfe46-120a-4359-89d4-a59ecaecf499">
+          <Language>1045</Language>
+          <Caption>WData</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>DimDate</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="905a09f5-f286-4623-9111-4479b4f1939e">
@@ -323,6 +347,12 @@
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="5d081a0b-e23e-495a-86b4-b4243003f1b8">
+          <Language>1045</Language>
+          <Caption>Przestój</Caption>
+        </Translation>
+      </Translations>
       <Measures>
         <Measure dwd:design-time-name="b36fbbfc-336d-4f3d-965e-595001757207">
           <ID>Down Time</ID>
@@ -335,6 +365,12 @@
             </Source>
           </Source>
           <FormatString>#,##0;-#,##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="5c8b8b46-b16f-41c9-b0e2-0ba81f33641f">
+              <Language>1045</Language>
+              <Caption>CzasPrzestoju (M)</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="0ac023bc-3fde-40f5-a82d-4cafd2bad219">
           <ID>v Fact ITSLA Count</ID>
@@ -348,6 +384,12 @@
             </Source>
           </Source>
           <FormatString>#,##0;-#,##0</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="8deee3e2-3cdc-4176-8eff-8000226cb698">
+              <Language>1045</Language>
+              <Caption>Liczba</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="e7693b96-31a0-4d36-8780-579f64ba67ee">
           <ID>Down Time Hrs</ID>
@@ -360,6 +402,12 @@
             </Source>
           </Source>
           <FormatString>#,##0.00;-#,##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="f350d579-73ac-45a4-9cd4-74eeb709b183">
+              <Language>1045</Language>
+              <Caption>CzasPrzestoju (H)</Caption>
+            </Translation>
+          </Translations>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
