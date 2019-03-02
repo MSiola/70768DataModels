@@ -28,8 +28,8 @@
       <FullPath>DimMachine.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Outage.dim</Name>
-      <FullPath>Outage.dim</FullPath>
+      <Name>DimOutage.dim</Name>
+      <FullPath>DimOutage.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DimStore.dim</Name>
@@ -42,6 +42,10 @@
     <ProjectItem>
       <Name>DimGeography.dim</Name>
       <FullPath>DimGeography.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimStoreUpdated.dim</Name>
+      <FullPath>DimStoreUpdated.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
