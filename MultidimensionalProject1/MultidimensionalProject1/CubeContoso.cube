@@ -316,24 +316,24 @@
         <Attribute dwd:design-time-name="460c1562-e131-486c-8018-dbed55818008">
           <AttributeID>Date Description</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="891dfcfa-a056-4ee8-83d7-6955cd7cd61a">
-          <AttributeID>Calendar Year Label</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="65ce31fd-91ec-4584-9e7a-ec63ab7b66c6">
-          <AttributeID>Calendar Half Year Label</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="22a2a046-f0ad-4e44-b226-56d0b442484d">
-          <AttributeID>Calendar Quarter Label</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="6fcf72b0-a0d4-43ea-8627-5355787a1e85">
-          <AttributeID>Calendar Month Label</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="c9a32ecd-c55c-4685-b636-ecfe642f6f31">
           <AttributeID>Is Work Day</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="53f46690-3484-4b14-896e-6cc2bf1be0e2">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="83f5f386-46c9-4636-a3a8-e453324d6c39">
+          <AttributeID>Calendar Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="87bea2c5-f0b7-4900-aaa1-b4c61228019a">
+          <AttributeID>Calendar Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0b775b51-5c40-4ffd-837b-4cb13bc54524">
+          <AttributeID>Calendar Month</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="6d13da41-1da1-4e0b-b521-00c935c8d4b2">
+        <Hierarchy dwd:design-time-name="c3b11ce8-1699-4d53-89d5-6d032f008f1c">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>

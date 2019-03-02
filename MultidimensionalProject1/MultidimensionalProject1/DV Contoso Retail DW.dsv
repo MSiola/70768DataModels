@@ -39,7 +39,7 @@
                 <layoutmanager>
                   <ddsxmlobj />
                 </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimDate" left="11838" top="5549" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="4101" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimDate" left="13822" top="5443" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="4101" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000c00000510000043110000" />
                   </control>
@@ -154,7 +154,7 @@
                     <point x="6104" y="7758" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="9138" top="7359" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="9138" top="5603" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="4984" height="805" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -167,9 +167,11 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="20" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="11838" y="7758" />
-                    <point x="9438" y="7758" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="14" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="13822" y="6002" />
+                    <point x="11630" y="6002" />
+                    <point x="11630" y="6108" />
+                    <point x="9438" y="6108" />
                   </connector>
                 </ddscontrol>
               </dds>
@@ -245,6 +247,10 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="CalendarYear" msprop:DbColumnName="CalendarYear" msprop:design-time-name="97256ed6-5a1f-4c5e-92e7-e549b3952aa6" type="xs:int" minOccurs="0" />
+                  <xs:element name="CalendarHalfYear" msprop:DbColumnName="CalendarHalfYear" msprop:design-time-name="87901f4e-af8a-4b9f-876b-e788b63d7c88" type="xs:int" minOccurs="0" />
+                  <xs:element name="CalendarQuarter" msprop:DbColumnName="CalendarQuarter" msprop:design-time-name="7f50989c-5be2-4de9-a701-3c508ca687aa" type="xs:int" minOccurs="0" />
+                  <xs:element name="CalendarMonth" msprop:DbColumnName="CalendarMonth" msprop:design-time-name="23f595e5-eb76-4ce0-b17b-cc997436fb2f" type="xs:int" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -427,7 +433,7 @@
                   <xs:element name="OutageStartTime" msprop:design-time-name="733fb42e-381a-4bea-87f2-acf95758b818" msprop:DbColumnName="OutageStartTime" msprop:FriendlyName="OutageStartTime" type="xs:dateTime" />
                   <xs:element name="OutageEndTime" msprop:design-time-name="f2f52f91-5d44-4808-8411-5d3f120a2bd2" msprop:DbColumnName="OutageEndTime" msprop:FriendlyName="OutageEndTime" type="xs:dateTime" />
                   <xs:element name="DownTime" msprop:design-time-name="feac8c9a-1445-47d7-8e09-8b5af19628fc" msprop:DbColumnName="DownTime" msprop:FriendlyName="DownTime" type="xs:int" />
-                  <xs:element name="DownTimeHrs" msprop:DbColumnName="DownTimeHrs" msprop:design-time-name="4f151908-4f25-4ec2-b177-564e7cdf3e15" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="DownTimeHrs" msprop:design-time-name="4f151908-4f25-4ec2-b177-564e7cdf3e15" msprop:DbColumnName="DownTimeHrs" type="xs:decimal" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
