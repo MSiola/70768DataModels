@@ -248,7 +248,7 @@
   <Hierarchies>
     <Hierarchy dwd:design-time-name="fccf825e-8f5f-48e9-bf60-97f96061c319">
       <ID>Hierarchy</ID>
-      <Name>DateHierarchy (YHQM)</Name>
+      <Name>DateHierarchy (Y-H-Q-M)</Name>
       <Levels>
         <Level dwd:design-time-name="63cc9f0f-a088-4479-a7e4-3f51efa73f12">
           <ID>Calendar Year Label</ID>
