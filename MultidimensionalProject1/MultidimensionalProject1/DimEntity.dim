@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="98d6d01e-e3ab-425d-8b17-ad3f5139dc1b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8bf2e427-5d90-4ce2-9a57-7b31aa7d0861" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DimEntity</ID>
   <Name>DimEntity</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4333" scrolltop="-6231" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12012" y="16457" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4983" scrolltop="-6881" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12012" y="16457" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -30,6 +30,27 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1280" top="-1300" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="2703" height="2597" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[vDimEntity-vDimEntity]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="1" sourceattachpoint="12" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="20" y="897" />
+              <point x="-980" y="897" />
+              <point x="-980" y="-1000" />
+              <point x="1123" y="-1000" />
+              <point x="1123" y="0" />
+            </connector>
+          </ddscontrol>
         </dds>
       </Value>
     </Annotation>
@@ -47,11 +68,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-4333</Value>
+      <Value>-4983</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-6231</Value>
+      <Value>-6881</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -68,72 +89,73 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7a79ff60-47e3-4284-89eb-0b97a77c6cee">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1b4daa38-f8b4-46f0-a9a6-d3a8977eae4f">
     <DataSourceViewID>Contoso Retail DW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="f93644ce-34a7-44f9-ad0e-a91e1f437e17">
+  <ErrorConfiguration dwd:design-time-name="2e324c66-074e-454f-a41b-2f262a82f5ae">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="32488271-c997-4e21-a0f4-a11603d6a1db">
+    <Attribute dwd:design-time-name="f6b92439-c182-4f85-90b9-cf638142f4df">
       <ID>Entity Key</ID>
       <Name>Entity Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5c6ec22c-569b-48d4-8660-ec9558c03d16">
+        <KeyColumn dwd:design-time-name="917ce0c9-e6aa-42c2-b33d-9af37f5894a0">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="502edb0b-57a1-4ca6-922d-6b9bfa46b6f0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f7cdf17f-cde5-4755-b3ea-c676d95fdf10">
             <TableID>olap_vDimEntity</TableID>
             <ColumnID>EntityKey</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="4610e7cd-2fa5-40b3-b2e8-0d3b0a3bf6b5">
+      <NameColumn dwd:design-time-name="000effe9-399f-4189-a5cc-b832d57627c3">
         <DataType>WChar</DataType>
-        <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="02964bfd-dbec-4546-8671-fcc544548ddc">
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="63e7d1d2-c056-4217-83e4-aa5e035e261a">
           <TableID>olap_vDimEntity</TableID>
-          <ColumnID>EntityLabel</ColumnID>
+          <ColumnID>EntityName</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="85df9fba-3e33-4689-bc0f-1a69ec9f202c">
+        <AttributeRelationship dwd:design-time-name="d8559946-0b51-4d8a-837b-fc4c1103e8f1">
           <AttributeID>Parent Entity Key</AttributeID>
           <Name>Parent Entity Key</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="97547a55-27fa-4fc2-8d83-52e797d0bf1f">
+        <AttributeRelationship dwd:design-time-name="026e25a8-755b-45d6-bc2f-7dfed5f9e634">
           <AttributeID>Entity Name</AttributeID>
           <Name>Entity Name</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="53ea3352-7de7-4510-892f-053646f2f509">
+        <AttributeRelationship dwd:design-time-name="4316fe4e-5c94-439a-b884-ebcc64f9b691">
           <AttributeID>Entity Description</AttributeID>
           <Name>Entity Description</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="28bad05d-4996-471a-8dc0-2e4106fd0687">
+        <AttributeRelationship dwd:design-time-name="ba900b87-a204-4b61-b7af-1c2174625ee9">
           <AttributeID>Entity Type</AttributeID>
           <Name>Entity Type</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="2eab1fa5-d9ff-426a-b3de-8a860ac1159d">
+        <AttributeRelationship dwd:design-time-name="804b6f52-3898-4a87-ae87-6e6a8ff9b02b">
           <AttributeID>Status</AttributeID>
           <Name>Status</Name>
         </AttributeRelationship>
       </AttributeRelationships>
-      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="3804fd5e-4f8e-4556-8d7d-6cbfb692a498">
+    <Attribute dwd:design-time-name="f5945d5d-d936-4a97-8e30-e29b0de16dd0">
       <ID>Parent Entity Key</ID>
       <Name>Parent Entity Key</Name>
+      <Usage>Parent</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d458f304-a7a2-40fe-bd69-221be59d463f">
+        <KeyColumn dwd:design-time-name="534d111d-c2dc-4655-876a-2925c130b150">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="bd56ff87-9b0c-4e58-a47f-eade12f178be">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5922596a-67d6-4e3c-9fdf-3ad739fb1fe1">
             <TableID>olap_vDimEntity</TableID>
             <ColumnID>ParentEntityKey</ColumnID>
           </Source>
@@ -143,14 +165,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="94dabc3d-c6aa-408b-a9a0-10487c105e42">
+    <Attribute dwd:design-time-name="e6cbd85f-794b-4b77-9822-885ae92ca1d2">
       <ID>Entity Name</ID>
       <Name>Entity Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="28c6687c-deaa-4229-9b58-a74895a0620e">
+        <KeyColumn dwd:design-time-name="3ca9b70d-75d1-495a-8bd8-ae5ec3412343">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="63d1f9ce-7c6d-4ab6-928e-8d4f0149b948">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7be3a2bd-11ba-4155-a079-d083413b0a44">
             <TableID>olap_vDimEntity</TableID>
             <ColumnID>EntityName</ColumnID>
           </Source>
@@ -160,14 +182,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="453d1d50-3385-4eff-a9db-260e6aaec738">
+    <Attribute dwd:design-time-name="1f3a1025-bf8a-4b26-a3f2-3cf61bb30cc1">
       <ID>Entity Description</ID>
       <Name>Entity Description</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e360b2fa-8b22-40ad-8e89-061de4665d79">
+        <KeyColumn dwd:design-time-name="2d000ff2-44fb-48f5-91fb-faf7c1fef1f7">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f7569cd-fa81-4d99-a49b-df2bf0958e04">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="67cb89c2-a742-4d1d-9e15-82cefe040c3d">
             <TableID>olap_vDimEntity</TableID>
             <ColumnID>EntityDescription</ColumnID>
           </Source>
@@ -177,14 +199,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="122f350b-ee85-4e8d-a33b-95d1d855462c">
+    <Attribute dwd:design-time-name="9960b457-e21b-4ac3-9368-be570eeebce2">
       <ID>Entity Type</ID>
       <Name>Entity Type</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="fe7fdf1e-f9fd-4470-afef-6f5894912bee">
+        <KeyColumn dwd:design-time-name="30a6cd3a-2bbc-496d-b079-ca5ed90406b6">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="265fdd20-cfea-480b-978c-1fd3bcc721d3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="09718877-2687-4a2e-af60-34ab1e54680d">
             <TableID>olap_vDimEntity</TableID>
             <ColumnID>EntityType</ColumnID>
           </Source>
@@ -194,14 +216,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="0c686d89-b154-4aea-bbfc-73bb5c7d7984">
+    <Attribute dwd:design-time-name="b70533a1-7d27-4dfc-a83a-ea526083fe3a">
       <ID>Status</ID>
       <Name>Status</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2cbee065-d612-4d14-92fa-2a1ed3df38ab">
+        <KeyColumn dwd:design-time-name="57a527f3-3248-4c93-a48a-02ecf999fa23">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1224463a-ff91-490d-82f3-c4fe3b3b1489">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94086804-9118-4863-9885-1fdb4a7faf97">
             <TableID>olap_vDimEntity</TableID>
             <ColumnID>Status</ColumnID>
           </Source>
