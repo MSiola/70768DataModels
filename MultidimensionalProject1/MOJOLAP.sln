@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Projekt01", "MultidimensionalProject1\Projekt01.dwproj", "{11BE72CD-F4EF-4EB2-817B-E8D186691949}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MOJOLAP", "MultidimensionalProject1\MOJOLAP.dwproj", "{11BE72CD-F4EF-4EB2-817B-E8D186691949}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
